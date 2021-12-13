@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface InventoryRepository extends CrudRepository<InventoryModel, Integer> {
-    public abstract ArrayList<InventoryModel> findByID(Integer id);
+    public abstract ArrayList<InventoryModel> findInventoryProductById(Integer id);
 }
